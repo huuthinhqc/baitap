@@ -2,10 +2,10 @@ public class App {
 
     public static void main(String[] args) {
 //         bài 4
-        int year = 1993;
-        int age = 2021 - year;
-        String str = String.format("Tuổi của người sinh năm 1993 là: %d ", age);
-        System.out.println(str);
+//        int year = 1993;
+//        int age = 2021 - year;
+//        String str = String.format("Tuổi của người sinh năm 1993 là: %d ", age);
+//        System.out.println(str);
 
 //         bài 5
 //        double a = 5.5;
@@ -62,8 +62,17 @@ public class App {
 //        System.out.println(c);
 
         // bài 9
-
-
+//            int plate = 73582;
+//            int a0 = plate/10000;
+//            int a1 = (plate/1000) % 10;
+//            int a2 = (plate/100) % 10;
+//            int a3 = (plate/10) % 10;
+//            int a4 = (plate/10);
+//
+//            int sum = a0 + a1 + a2 + a3 + a4;
+//            int point = sum % 10;
+//            System.out.println(sum);
+//            System.out.println(point);
 
         // bài 10
 //        int a = 10;
