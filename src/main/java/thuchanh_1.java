@@ -1,4 +1,4 @@
-public class App {
+public class thuchanh_1 {
 
     public static void main(String[] args) {
 //         bài 4
