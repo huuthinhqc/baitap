@@ -170,9 +170,6 @@ public class thuchanh_2 {
                 System.out.println("Đây là tam giác thường");
 
 
-
-
-
         }
     }
 
