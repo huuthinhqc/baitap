@@ -1,3 +1,5 @@
+package thuchanh_1;
+
 public class thuchanh_1 {
 
     public static void main(String[] args) {
