@@ -6,6 +6,7 @@ public class App {
 
     public static void main(String[] args) {
         int[][] a = inputMatrix();
+        printMatrix(a);
 
         // Bài 1
         System.out.print("nhập x: ");
@@ -52,7 +53,7 @@ public class App {
     public static void printMatrix(int[][] a) {
         for (int i = 0, r = a.length; i < r; i++) {
             for (int j = 0, c = a[0].length; j < c; j++) {
-                System.out.format("5%d ", a[i][j]);
+                System.out.format("%d ", a[i][j]);
             }
             System.out.println();
         }
@@ -77,7 +78,7 @@ public class App {
         }
         return s;
     }
-
+    //bài 1
     public static boolean findX(int[][] a, int x) {
         for (int i = 0, r = a.length; i < r; i++) {
             for (int j = 0, c = a[0].length; j < c; j++) {
@@ -89,7 +90,7 @@ public class App {
         }
         return false;
     }
-
+    //bài 2
     public static boolean isPrime(int n) {
         boolean num = true;
         for (int i = 2; i < n; i++) {
@@ -111,7 +112,7 @@ public class App {
         }
         return true;
     }
-
+    //bài 3
     public static int findMax(int[][] a) {
         int max = a[0][0];
         for (int i = 0, r = a.length; i < r; i++) {
@@ -124,5 +125,23 @@ public class App {
         return max;
     }
 
+    //bài 4 a
+    public static int sumMatrix(int[][] a, int row, int column) {
+        int sumRow = 0;
+        int sumColumn = 0;
+
+        for (int i = 0, r = a.length; i < r; i++) {
+            sumRow += a[row][i];
+        }
+
+        for (int i = 0, r = a.length; i < r; i++) {
+            if (a[i][column] != a[row][column]) {
+                sumRow += a[i][column];
+            }
+        }
+        int sum = sumRow + sumColumn;
+        return sum;
+
+    }
 
 }
